@@ -19,22 +19,28 @@
       rel="stylesheet"
     />
     <title>Social Media Dashboard</title>
-
   </head>
   <body>
     <main>
       <header>
         <div class="heading">
-          <h1 class="headings">Social Media Dashboard</h1>
-          <span>Total Followers: 23,004</span>
-        </div>
-        <div class="toggle">
-          <span>Dark Mode</span>
-          <div class="icon">
-            <input type="checkbox" class="checkbox" id="chk" onclick="changeMode()"/>
-            <label class="label" for="chk">
-              <div class="ball"></div>
-            </label>
+          <div class="heading-container">
+            <h1 class="headings">Social Media Dashboard</h1>
+            <span>Total Followers: 23,004</span>
+          </div>
+          <div class="toggle">
+            <span>Dark Mode</span>
+            <div class="icon">
+              <input
+                type="checkbox"
+                class="checkbox"
+                id="chk"
+                onclick="changeMode()"
+              />
+              <label class="label" for="chk">
+                <div class="ball"></div>
+              </label>
+            </div>
           </div>
         </div>
       </header>
@@ -114,7 +120,9 @@
             </div>
             <div>
               <p>87</p>
-              <span class="green"><img src="images/icon-up.svg" alt="" />3%</span>
+              <span class="green"
+                ><img src="images/icon-up.svg" alt="" />3%</span
+              >
             </div>
           </div>
           <div class="overview-social">
@@ -124,7 +132,9 @@
             </div>
             <div>
               <p>52</p>
-              <span class="red"><img src="images/icon-down.svg" alt="" />2%</span>
+              <span class="red"
+                ><img src="images/icon-down.svg" alt="" />2%</span
+              >
             </div>
           </div>
           <div class="overview-social">
@@ -134,7 +144,9 @@
             </div>
             <div>
               <p>5462</p>
-              <span class="green"><img src="images/icon-up.svg" alt="" />2257%</span>
+              <span class="green"
+                ><img src="images/icon-up.svg" alt="" />2257%</span
+              >
             </div>
           </div>
           <div class="overview-social">
@@ -144,7 +156,9 @@
             </div>
             <div>
               <p>52K</p>
-              <span class="green"><img src="images/icon-up.svg" alt="" />1375%</span>
+              <span class="green"
+                ><img src="images/icon-up.svg" alt="" />1375%</span
+              >
             </div>
           </div>
           <div class="overview-social">
@@ -154,7 +168,9 @@
             </div>
             <div>
               <p>117</p>
-              <span class="green"><img src="images/icon-up.svg" alt="" />303%</span>
+              <span class="green"
+                ><img src="images/icon-up.svg" alt="" />303%</span
+              >
             </div>
           </div>
           <div class="overview-social">
@@ -164,7 +180,9 @@
             </div>
             <div>
               <p>507</p>
-              <span class="green"><img src="images/icon-up.svg" alt="" />553%</span>
+              <span class="green"
+                ><img src="images/icon-up.svg" alt="" />553%</span
+              >
             </div>
           </div>
           <div class="overview-social">
@@ -174,7 +192,9 @@
             </div>
             <div>
               <p>107</p>
-              <span class="red"><img src="images/icon-down.svg" alt="" />19%</span>
+              <span class="red"
+                ><img src="images/icon-down.svg" alt="" />19%</span
+              >
             </div>
           </div>
           <div class="overview-social">
@@ -184,7 +204,9 @@
             </div>
             <div>
               <p>1407</p>
-              <span class="red"><img src="images/icon-down.svg" alt="" />12%</span>
+              <span class="red"
+                ><img src="images/icon-down.svg" alt="" />12%</span
+              >
             </div>
           </div>
         </div>
@@ -193,7 +215,7 @@
     <script>
       function changeMode() {
         let element = document.body;
-        element.classList.toggle("light")
+        element.classList.toggle("light");
       }
     </script>
   </body>
